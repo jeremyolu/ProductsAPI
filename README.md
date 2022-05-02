@@ -18,7 +18,7 @@ Fields include:
 - OnSale
 - Type
 
-### Response Example:
+Response Example:
 
 {
   "total": 3,
@@ -59,9 +59,9 @@ Fields include:
 ## GET: Products/:id (int)
 Product endpoint for retriving a specific product based on a product's id.
 
-### Example: http://products.jeremyolu.com/api/products?id=1001
+Example: http://products.jeremyolu.com/api/products?id=1001
 
 ## GET: Products/:name (string)
 Products endpoint for retriving results of a search based on a product's name.
 
-### Example: http://products.jeremyolu.com/api/products?name=nike
+Example: http://products.jeremyolu.com/api/products?name=nike
