@@ -6,7 +6,7 @@ namespace ProductsAPI.Controllers
     {
         public ActionResult Index()
         {
-            return Redirect("https://github.com/jeremyolu");
+            return Redirect("https://github.com/jeremyolu/ProductsAPI");
         }
     }
 }
