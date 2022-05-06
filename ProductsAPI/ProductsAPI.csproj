@@ -131,6 +131,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Img\Products\adidas-gym-leggins-tights.jpg" />
+    <Content Include="Img\Products\adidas-sports-bra.jpg" />
+    <Content Include="Img\Products\adidas-sports-tights.jpg" />
+    <Content Include="Img\Products\black-gym-mat.jpg" />
+    <Content Include="Img\Products\clantel-free-weights.jpg" />
+    <Content Include="Img\Products\grenade-protein-shake.jpg" />
+    <Content Include="Img\Products\jfitness-brand-fitness-joggers.jpg" />
+    <Content Include="Img\Products\new-balance-light-joggers.jpg" />
+    <Content Include="Img\Products\new-balance-wx-trainers.jpg" />
+    <Content Include="Img\Products\nike-pro-trainers.jpg.jpg" />
+    <Content Include="Img\Products\nike-valtec-sports-bra.jpg" />
+    <Content Include="Img\Products\wench-protein-shake.jpg.jpg" />
+    <Content Include="Img\Products\white-reebok-classics-trainers.jpg.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
