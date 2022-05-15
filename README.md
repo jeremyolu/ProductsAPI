@@ -56,24 +56,24 @@ Response Example:
     ]
  }
 
-## GET: Products/:id (int)
+## GET: products/:id (int)
 Product endpoint for retriving a specific product based on a product's id.
 
 Example: https://products.jeremyolu.com/api/products?id=1001
 
-## GET: Products/:name (string)
+## GET: products/:name (string)
 Products endpoint for retriving results of a search based on a product's name.
 
 Example: https://products.jeremyolu.com/api/products?name=nike
 
-## GET: Products/maleproducts
+## GET: products/maleproducts
 Products endpoint for retriving male products
 Example: https://products.jeremyolu.com/api/products/maleproducts
 
-## GET: Products/femaleproducts
+## GET: products/femaleproducts
 Products endpoint for retriving female products
 Example: https://products.jeremyolu.com/api/products/femaleproducts
 
-## GET: Products/saleproducts
+## GET: products/saleproducts
 Products endpoint for retriving sale products
 Example: https://products.jeremyolu.com/api/products/saleproducts
