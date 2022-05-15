@@ -1,12 +1,12 @@
 # ProductsAPI
 Products API for application development and testing purposes.
 
-Base URL: http://products.jeremyolu.com/api/
+Base URL: https://products.jeremyolu.com/api/
 
 ## GET: Products
 Products endpoint for retriving a list of gym/sporting related products.
 
-Projects EndPoint: http://products.jeremyolu.com/api/products
+Projects EndPoint: https://products.jeremyolu.com/api/products
 
 Fields include:
 
@@ -59,9 +59,21 @@ Response Example:
 ## GET: Products/:id (int)
 Product endpoint for retriving a specific product based on a product's id.
 
-Example: http://products.jeremyolu.com/api/products?id=1001
+Example: https://products.jeremyolu.com/api/products?id=1001
 
 ## GET: Products/:name (string)
 Products endpoint for retriving results of a search based on a product's name.
 
-Example: http://products.jeremyolu.com/api/products?name=nike
+Example: https://products.jeremyolu.com/api/products?name=nike
+
+## GET: Products/maleproducts
+Products endpoint for retriving male products
+Example: https://products.jeremyolu.com/api/products/maleproducts
+
+## GET: Products/femaleproducts
+Products endpoint for retriving female products
+Example: https://products.jeremyolu.com/api/products/femaleproducts
+
+## GET: Products/saleproducts
+Products endpoint for retriving sale products
+Example: https://products.jeremyolu.com/api/products/saleproducts
