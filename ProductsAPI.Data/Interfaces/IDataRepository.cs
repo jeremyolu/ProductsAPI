@@ -7,6 +7,9 @@ namespace ProductsAPI.Data.Interfaces
     {
         IEnumerable<Product> GetProductsList();
         IEnumerable<Product> GetProductById(int id);
+        IEnumerable<Product> GetSaleProductsList();
         IEnumerable<Product> GetProductsByNameList(string name);
+        IEnumerable<Product> GetMaleProductsList();
+        IEnumerable<Product> GetFemaleProductsList();
     }
 }

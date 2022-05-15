@@ -53,19 +53,14 @@ namespace ProductsAPI.Data.Repositories
             return GetProductsList().Where(p => p.Name.ToLower().StartsWith(name.ToLower()) || p.Name.ToLower().Contains(name.ToLower()));
         }
 
-        public IEnumerable<Product> GetMaleProducts()
+        public IEnumerable<Product> GetMaleProductsList()
         {
             return GetProductsList().Where(p => p.Gender == 'M' || p.Gender == 'U');
         }
 
-        public IEnumerable<Product> GetFemaleProducts()
+        public IEnumerable<Product> GetFemaleProductsList()
         {
             return GetProductsList().Where(p => p.Gender == 'F' || p.Gender == 'U');
-        }
-
-        public IEnumerable<Product> GetProductsByType(string type)
-        {
-            return GetProductsList().Where(p => p.Type.ToLower().StartsWith(type.ToLower()) || p.Type.ToLower().Contains(type.ToLower()));
         }
     }
 }

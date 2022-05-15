@@ -35,6 +35,27 @@ namespace ProductsAPI.Data.Services
             return FormatApiResponse(products);
         }
 
+        public ApiResponse<Product> GetSaleProducts()
+        {
+            var products = _dataRepository.GetSaleProductsList();
+
+            return FormatApiResponse(products);
+        }
+
+        public ApiResponse<Product> GetMaleProducts()
+        {
+            var products = _dataRepository.GetMaleProductsList();
+
+            return FormatApiResponse(products);
+        }
+
+        public ApiResponse<Product> GetFemaleProducts()
+        {
+            var products = _dataRepository.GetFemaleProductsList();
+
+            return FormatApiResponse(products);
+        }
+
         private ApiResponse<T> FormatApiResponse<T>(IEnumerable<T> collection)
         {
             return new ApiResponse<T>

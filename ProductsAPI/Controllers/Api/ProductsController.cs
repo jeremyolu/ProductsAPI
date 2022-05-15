@@ -59,5 +59,32 @@ namespace ProductsAPI.Controllers.Api
 
             return Ok(result);
         }
+
+        [Route("api/products/saleproducts")]
+        [HttpGet]
+        public IHttpActionResult GetSaleProducts()
+        {
+            var result = _apiService.GetSaleProducts();
+
+            return Ok(result);
+        }
+
+        [Route("api/products/maleproducts")]
+        [HttpGet]
+        public IHttpActionResult GetMaleProducts()
+        {
+            var result = _apiService.GetMaleProducts();
+
+            return Ok(result);
+        }
+
+        [Route("api/products/femaleproducts")]
+        [HttpGet]
+        public IHttpActionResult GetFemaleProducts()
+        {
+            var result = _apiService.GetFemaleProducts();
+
+            return Ok(result);
+        }
     }
 }
